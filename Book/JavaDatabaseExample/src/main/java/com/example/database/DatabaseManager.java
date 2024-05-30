@@ -13,7 +13,7 @@ public class DatabaseManager {
 
     public void connect() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://192.168.133.3:3306/book", "root", "@MVM2016");
+            connection = DriverManager.getConnection("jdbc:mysql://192.168.56.101:3306/book", "root", "P@ssw0rd3");
             System.out.println("Connexio establerta.");
         } catch (SQLException e) {
             e.printStackTrace();
